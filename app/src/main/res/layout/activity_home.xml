@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ss"
+    tools:context=".Home"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/tvFeedback3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="131dp"
+        android:text="LOGIN"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvFeedback2" />
+
+    <TextView
+        android:id="@+id/tvParvah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Parvah"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="50dp"
+        app:fontFamily="serif"
+        app:layout_constraintEnd_toEndOf="@+id/tvWeCare"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvWeCare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:text="We Care"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvFeedback"
+        app:layout_constraintTop_toTopOf="@+id/tvParvah" />
+
+    <ImageButton
+        android:id="@+id/ibDonation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvAboutus"
+        app:layout_constraintEnd_toStartOf="@+id/ibAboutUs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ibAboutUs"
+        app:srcCompat="@drawable/donate" />
+
+    <ImageButton
+        android:id="@+id/ibAboutUs"
+        android:layout_width="0dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="162dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ibFeedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ibDonation"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cc" />
+
+    <ImageButton
+        android:id="@+id/ibFeedback"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFeedback2"
+        app:layout_constraintEnd_toStartOf="@+id/tvFeedback2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDonation"
+        app:srcCompat="@drawable/aaa" />
+
+    <TextView
+        android:id="@+id/tvDonation"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="DONATIONS"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/ibDonation"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAboutus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="3dp"
+        android:text="ABOUT US"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/ibAboutUs"
+        app:layout_constraintTop_toBottomOf="@+id/ibAboutUs" />
+
+    <TextView
+        android:id="@+id/tvFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="FEEDBACK"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="@+id/ibFeedback"
+        app:layout_constraintTop_toBottomOf="@+id/ibFeedback" />
+
+    <TextView
+        android:id="@+id/tvFeedback2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvFeedback3"
+        app:layout_constraintStart_toEndOf="@+id/ibFeedback"
+        app:layout_constraintTop_toBottomOf="@+id/ibLogin1" />
+
+
+    <ImageButton
+        android:id="@+id/ibLogin1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="21dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvFeedback3"
+        app:layout_constraintEnd_toEndOf="@+id/ibAboutUs"
+        app:layout_constraintStart_toStartOf="@+id/tvAboutus"
+        app:layout_constraintTop_toBottomOf="@+id/tvDonation"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+</android.support.constraint.ConstraintLayout>

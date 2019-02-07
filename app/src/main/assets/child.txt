@@ -1,0 +1,11 @@
+NAME                   CURRENT_STD     CURRENT PERCENTAGE        AVG PERCENTILE       PROGRESS
+Meril Retzlaff             5                   80%                    75.04%              Y
+Vivia Wellner              8                   75%                    70.06%              N
+Neida Forest               6                   85%                    82%                 Y
+Vern Cammarata             9                   72%                    72.5%               Y
+Yola Joerling              7                   66%                    65%                 N
+Edda Guyer                 9                   56%                    60.02%              Y
+Ella Hoose                 8                   73%                    69.69%              N
+Tyron Marra                6                   90%                    85.66%              Y
+Victoria Nees              5                   87%                    79.98%              Y
+Carol Stillson             4                   78%                    77.02%              Y
