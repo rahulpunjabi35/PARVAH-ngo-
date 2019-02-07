@@ -1,4 +1,4 @@
-**TSEC HACKATHON 2019**
+#TSEC HACKATHON 2019
 ANDROID APPLICATION FOR NGO'S
 OBJECTIVE AND PROBLEM STATEMENT
 The objective is to develop a mobile application for the Non-Governmental Organization (NGO) working for the welfare of the young children. This application would provide the statistical insights to staff of NGO working and thereby saving their time .
